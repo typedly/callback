@@ -6,6 +6,7 @@ export type {
   CommonCallback,
   ErrorCallback,
   FailureCallback,
+  ProcessCallback,
   ResultCallback,
   StatusCallback,
   SuccessCallback,
