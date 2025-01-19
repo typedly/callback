@@ -1,5 +1,5 @@
 export type SuccessCallback<
   Value = unknown,
   Payload = unknown,
-  Return = true
+  Return = void
 > = (value: Value, payload?: Payload) => Return;
