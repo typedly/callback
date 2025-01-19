@@ -1,7 +1,7 @@
 
 <a href="https://www.typescriptlang.org/">
   <img
-    src="https://raw.githubusercontent.com/typescript-package/core/refs/heads/main/ts-package-barcode-logo-512.png"
+    src="https://avatars.githubusercontent.com/u/189665258?s=400&u=712e292bae048947d1f7d2020d7d38875c40e63a&v=4"
     width="20%"
     title="@typedly/callback"
   />
@@ -40,6 +40,7 @@ import {
   AsyncCallback,
   CommonCallback,
   ErrorCallback,
+  ErrorMessage,
   FailureCallback,
   ProcessCallback,
   ResultCallback,
