@@ -1,30 +1,13 @@
 // Type.
-import { CommonCallback } from "./common-callback.type";
+import { ErrorMessage } from "./error-message.type";
 export type ErrorCallback<
-  Status = boolean,
-  Value = unknown,
+  Context = unknown,
   Payload = unknown,
-  Return = Status,
-  Type extends typeof Error = typeof Error,
-  Message extends string | ((value: Value, payload: Payload) => string) = string,
-> = CommonCallback<
-  Status,
-  Value,
-  Payload,
-  Return
-> extends (
-  result: Status,
-  value: Value,
+  Return = void,
+  Type extends typeof Error = typeof Error
+> = (
+  context: Context,
   payload?: Payload,
-  message?: Message,
+  message?: string | ErrorMessage<Context, Payload>,
   type?: Type
-) => Return
-  ? (
-      status: Status,
-      value: Value,
-      payload?: Payload,
-      message?: Message,
-      type?: Type
-  ) => Return
-  : never;
-  
+) => Return;
