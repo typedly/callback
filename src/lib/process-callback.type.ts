@@ -1,1 +1,1 @@
-export type ProcessCallback<Element> = (element: Element) => void | Promise<void>;
+export type ProcessCallback<Element, Return = void | Promise<void>> = (element: Element) => Return;
