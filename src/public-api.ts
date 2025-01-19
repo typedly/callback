@@ -5,6 +5,7 @@ export type {
   AsyncCallback,
   CommonCallback,
   ErrorCallback,
+  ErrorMessage,
   FailureCallback,
   ProcessCallback,
   ResultCallback,
