@@ -1,8 +1,9 @@
 import { ErrorCallback } from '../lib';
 
-const errorCallback: ErrorCallback<boolean, any, {rule: "empty"}, boolean> = (status, value, payload, message, type) => {
-  console.log(status, value, payload, message, type);
+const errorCallback: ErrorCallback = (context, payload, message, type) => {
+  console.log(context, payload, message, type);
   return false;
 }
 
-errorCallback(false, 'test', {'rule': "empty"}, "Type error message", TypeError);
+errorCallback(false, {'rule': "empty"}, "Type error message", TypeError);
+errorCallback(false, {'rule': "empty"}, (value, payload) => 'Type error message', TypeError);
