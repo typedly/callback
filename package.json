@@ -1,12 +1,16 @@
 {
   "name": "@typedly/callback",
-  "version": "1.0.0-beta.2",
+  "version": "1.0.0-beta.3",
   "author": "wwwdev.io <dev@wwwdev.io>",
   "description": "A TypeScript type definitions package for asynchronous and synchronous callback functions of various types.",
   "license": "MIT",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
+  },
+  "devDependencies": {
+    "@typedly/context": "^1.0.0",
+    "@typedly/payload": "^1.0.0"
   },
   "scripts": {
     "prepublishOnly": "npm install rimraf && npm run pkg && npm run clean",
@@ -15,10 +19,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/typescript-package/typedly.git"
+    "url": "git+https://github.com/typedly/callback.git"
   },
   "bugs": {
-    "url": "https://github.com/typescript-package/typedly/issues"
+    "url": "https://github.com/typedly/callback/issues"
   },
   "keywords": [
     "@typedly",
@@ -28,7 +32,11 @@
   ],
   "funding": [
     {
-      "type": "individual",
+      "type": "stripe",
+      "url": "https://donate.stripe.com/dR614hfDZcJE3wAcMM"
+    },
+    {
+      "type": "revolut",
       "url": "https://checkout.revolut.com/pay/048b10a3-0e10-42c8-a917-e3e9cb4c8e29"
     }
   ],
