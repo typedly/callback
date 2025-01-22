@@ -9,23 +9,42 @@
 
 ## typedly/callback
 
-A TypeScript type definitions package for asynchronous and synchronous callback functions of various types.
-
 <!-- npm badge -->
 [![npm version][typedly-npm-badge-svg]][typedly-npm-badge]
 [![GitHub issues][typedly-badge-issues]][typedly-issues]
 [![GitHub license][typedly-badge-license]][typedly-license]
 
-<br>
+**Version:** v1.0.0-beta.4
+
+A TypeScript type definitions package for asynchronous and synchronous callback functions of various types.
+
+## Overview
+
+- **Defining** the various type of callbacks from `@typedly/callback`.
+- Optional default **payload merging**.
+- Ability to **use the default types** from the `@typedly/context` for `context` and `@typedly/payload` for `payload`.
 
 ## Table of contents
 
-* [Installation](#installation)
-* [Api](#api)
-* [Git](#git)
-  * [Commit](#commit)
-  * [Versioning](#versioning)
-* [License](#license)
+- [Installation](#installation)
+- [Api](#api)
+  - [Types](#types)
+    - AsyncCallback
+    - CommonCallback
+    - ErrorCallback
+    - ErrorMessage
+    - FailureCallback
+    - ProcessCallback
+    - ResultCallback
+    - StatusCallback
+    - SuccessCallback
+    - ValidationCallback
+- [Contributing](#contributing)
+- [Code of Conduct](#code-of-conduct)
+- [Git](#git)
+  - [Commit](#commit)
+  - [Versioning](#versioning)
+- [License](#license)
 
 ## Installation
 
@@ -50,13 +69,34 @@ import {
 } from '@typedly/callback';
 ```
 
+### Types
+
+- [AsyncCallback](https://github.com/typedly/callback/blob/main/src/lib/async-callback.type.ts),
+- [CommonCallback](https://github.com/typedly/callback/blob/main/src/lib/common-callback.type.ts)
+- [ErrorCallback](https://github.com/typedly/callback/blob/main/src/lib/error-callback.type.ts)
+- [ErrorMessage](https://github.com/typedly/callback/blob/main/src/lib/error-message.type.ts)
+- [FailureCallback](https://github.com/typedly/callback/blob/main/src/lib/failure-callback.type.ts)
+- [ProcessCallback](https://github.com/typedly/callback/blob/main/src/lib/process-callback.type.ts)
+- [ResultCallback](https://github.com/typedly/callback/blob/main/src/lib/result-callback.type.ts)
+- [StatusCallback](https://github.com/typedly/callback/blob/main/src/lib/status-callback.type.ts)
+- [SuccessCallback](https://github.com/typedly/callback/blob/main/src/lib/success-callback.type.ts)
+- [ValidationCallback](https://github.com/typedly/callback/blob/main/src/lib/validation-callback.type.ts)
+
+## Contributing
+
+Your contributions are valued! If you'd like to contribute, please feel free to submit a pull request. Help is always appreciated.
+
+### Code of Conduct
+
+By participating in this project, you agree to follow **[Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/)**.
+
 ## GIT
 
 ### Commit
 
-* [AngularJS Git Commit Message Conventions][git-commit-angular]
-* [Karma Git Commit Msg][git-commit-karma]
-* [Conventional Commits][git-commit-conventional]
+- [AngularJS Git Commit Message Conventions][git-commit-angular]
+- [Karma Git Commit Msg][git-commit-karma]
+- [Conventional Commits][git-commit-conventional]
 
 ### Versioning
 
@@ -64,9 +104,9 @@ import {
 
 **Given a version number MAJOR.MINOR.PATCH, increment the:**
 
-* MAJOR version when you make incompatible API changes,
-* MINOR version when you add functionality in a backwards-compatible manner, and
-* PATCH version when you make backwards-compatible bug fixes.
+- MAJOR version when you make incompatible API changes,
+- MINOR version when you add functionality in a backwards-compatible manner, and
+- PATCH version when you make backwards-compatible bug fixes.
 
 Additional labels for pre-release and build metadata are available as extensions to the MAJOR.MINOR.PATCH format.
 
