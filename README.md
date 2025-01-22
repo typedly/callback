@@ -18,12 +18,6 @@
 
 A TypeScript type definitions package for asynchronous and synchronous callback functions of various types.
 
-## Overview
-
-- **Defining** the various type of callbacks from `@typedly/callback`.
-- Optional default **payload merging**.
-- Ability to **use the default types** from the `@typedly/context` for `context` and `@typedly/payload` for `payload`.
-
 ## Table of contents
 
 - [Installation](#installation)
