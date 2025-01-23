@@ -23,16 +23,18 @@ A TypeScript type definitions package for asynchronous and synchronous callback 
 - [Installation](#installation)
 - [Api](#api)
   - [Types](#types)
-    - AsyncCallback
-    - CommonCallback
-    - ErrorCallback
-    - ErrorMessage
-    - FailureCallback
-    - ProcessCallback
-    - ResultCallback
-    - StatusCallback
-    - SuccessCallback
-    - ValidationCallback
+    - `AsyncCallback`
+    - `CommonCallback`
+    - `ErrorCallback`
+    - `ErrorMessage`
+    - `FailureCallback`
+    - `GetterCallback`
+    - `ProcessCallback`
+    - `ResultCallback`
+    - `SetterCallback`
+    - `StatusCallback`
+    - `SuccessCallback`
+    - `ValidationCallback`
 - [Contributing](#contributing)
 - [Support](#support)
 - [Code of Conduct](#code-of-conduct)
