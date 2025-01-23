@@ -7,8 +7,10 @@ export type {
   ErrorCallback,
   ErrorMessage,
   FailureCallback,
+  GetterCallback,
   ProcessCallback,
   ResultCallback,
+  SetterCallback,
   StatusCallback,
   SuccessCallback,
   ValidationCallback
