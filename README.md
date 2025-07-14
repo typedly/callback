@@ -3,7 +3,7 @@
   <img
     src="https://avatars.githubusercontent.com/u/189665258?s=400&u=712e292bae048947d1f7d2020d7d38875c40e63a&v=4"
     width="20%"
-    title="@typedly/callback"
+    title="@typedly/callback - A TypeScript type definitions package for asynchronous and synchronous callback functions of various types."
   />
 </a>
 
@@ -14,9 +14,13 @@
 [![GitHub issues][typedly-badge-issues]][typedly-issues]
 [![GitHub license][typedly-badge-license]][typedly-license]
 
-**Version:** v1.0.0-beta.4
+A **TypeScript** type definitions package for asynchronous and synchronous callback functions of various types.
 
-A TypeScript type definitions package for asynchronous and synchronous callback functions of various types.
+## Related packages
+
+- **[@typescript-package/property](https://github.com/typescript-package/property)**: A **TypeScript** package with features to handle object properties.
+- **[@typescript-package/property-connect](https://github.com/typescript-package/property-connect)**: A **TypeScript** package for connecting object properties.
+- **[@typescript-package/wrap-property](https://github.com/typescript-package/wrap-property)**: A **TypeScript** package for wrapping object properties.
 
 ## Table of contents
 
@@ -70,7 +74,7 @@ import {
 
 ### Types
 
-- [`AsyncCallback`](https://github.com/typedly/callback/blob/main/src/lib/async-callback.type.ts),
+- [`AsyncCallback`](https://github.com/typedly/callback/blob/main/src/lib/async-callback.type.ts)
 - [`CommonCallback`](https://github.com/typedly/callback/blob/main/src/lib/common-callback.type.ts)
 - [`ErrorCallback`](https://github.com/typedly/callback/blob/main/src/lib/error-callback.type.ts)
 - [`ErrorMessage`](https://github.com/typedly/callback/blob/main/src/lib/error-message.type.ts)
@@ -95,6 +99,17 @@ Support via:
 
 - [Stripe](https://donate.stripe.com/dR614hfDZcJE3wAcMM)
 - [Revolut](https://checkout.revolut.com/pay/048b10a3-0e10-42c8-a917-e3e9cb4c8e29)
+- [GitHub](https://github.com/sponsors/angular-package/sponsorships?sponsor=sciborrudnicki&tier_id=83618)
+- [DonorBox](https://donorbox.org/become-a-sponsor-to-the-angular-package?default_interval=o)
+- [Patreon](https://www.patreon.com/checkout/angularpackage?rid=0&fan_landing=true&view_as=public)
+
+or via Trust Wallet
+
+- [XLM](https://link.trustwallet.com/send?coin=148&address=GAFFFB7H3LG42O6JA63FJDRK4PP4JCNEOPHLGLLFH625X2KFYQ4UYVM4)
+- [USDT (BEP20)](https://link.trustwallet.com/send?coin=20000714&address=0xA0c22A2bc7E37C1d5992dFDFFeD5E6f9298E1b94&token_id=0x55d398326f99059fF775485246999027B3197955)
+- [ETH](https://link.trustwallet.com/send?coin=60&address=0xA0c22A2bc7E37C1d5992dFDFFeD5E6f9298E1b94)
+- [BTC](https://link.trustwallet.com/send?coin=0&address=bc1qnf709336tfl57ta5mfkf4t9fndhx7agxvv9svn)
+- [BNB](https://link.trustwallet.com/send?coin=20000714&address=0xA0c22A2bc7E37C1d5992dFDFFeD5E6f9298E1b94)
 
 Thanks for your support!
 
