@@ -16,12 +16,6 @@
 
 A **TypeScript** type definitions package for asynchronous and synchronous callback functions of various types.
 
-## Related packages
-
-- **[@typescript-package/property](https://github.com/typescript-package/property)**: A **TypeScript** package with features to handle object properties.
-- **[@typescript-package/property-connect](https://github.com/typescript-package/property-connect)**: A **TypeScript** package for connecting object properties.
-- **[@typescript-package/wrap-property](https://github.com/typescript-package/wrap-property)**: A **TypeScript** package for wrapping object properties.
-
 ## Table of contents
 
 - [Installation](#installation)
@@ -46,6 +40,7 @@ A **TypeScript** type definitions package for asynchronous and synchronous callb
   - [Commit](#commit)
   - [Versioning](#versioning)
 - [License](#license)
+- [Related packages](#related-packages)
 
 ## Installation
 
@@ -149,6 +144,12 @@ How do I know when to release 1.0.0?
 ## License
 
 MIT © typedly ([license][typedly-license])
+
+## Related packages
+
+- **[@typescript-package/property](https://github.com/typescript-package/property)**: A **TypeScript** package with features to handle object properties.
+- **[@typescript-package/property-connect](https://github.com/typescript-package/property-connect)**: A **TypeScript** package for connecting object properties.
+- **[@typescript-package/wrap-property](https://github.com/typescript-package/wrap-property)**: A **TypeScript** package for wrapping object properties.
 
 <!-- This package: typedly  -->
   <!-- GitHub: badges -->
