@@ -44,6 +44,14 @@ A **TypeScript** type definitions package for asynchronous and synchronous callb
 
 ## Installation
 
+### 1. Install peer dependencies
+
+```bash
+npm install @typedly/context@1.0.0 @typedly/payload@1.0.0 --save-peer
+```
+
+### 2. Install the package
+
 ```bash
 npm install @typedly/callback --save-peer
 ```
