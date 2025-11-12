@@ -22,28 +22,28 @@ A **TypeScript** type definitions package for asynchronous and synchronous callb
 - [Api](#api)
   - [Types](#types)
     - **Core/Base**
-    - `AsyncCallback`
-    - `CommonCallback`
+      - `AsyncCallback`
+      - `CommonCallback`
     - **Result/Outcome**
-    - `FailureCallback`
-    - `ResultCallback`
-    - `StatusCallback`
-    - `SuccessCallback`
+      - `FailureCallback`
+      - `ResultCallback`
+      - `StatusCallback`
+      - `SuccessCallback`
     - **Errors/Validation**
-    - `ErrorCallback`
-    - `ValidationCallback`
+      - `ErrorCallback`
+      - `ValidationCallback`
     - **Hooks/Events**
-    - `OnChangeCallback`
-    - `OnDestroyCallback`
-    - `OnPropertyChangeCallback`
-    - `OnSetCallback`
-    - `OnSetPropertyCallback`
+      - `OnChangeCallback`
+      - `OnDestroyCallback`
+      - `OnPropertyChangeCallback`
+      - `OnSetCallback`
+      - `OnSetPropertyCallback`
     - **Action**
-    - `GetterCallback`
-    - `ProcessCallback`
-    - `SetterCallback`
+      - `GetterCallback`
+      - `ProcessCallback`
+      - `SetterCallback`
     - **Utility**
-    - `ErrorMessage`
+      - `ErrorMessage`
 - [Contributing](#contributing)
 - [Support](#support)
 - [Code of Conduct](#code-of-conduct)
