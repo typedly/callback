@@ -21,18 +21,34 @@ A **TypeScript** type definitions package for asynchronous and synchronous callb
 - [Installation](#installation)
 - [Api](#api)
   - [Types](#types)
+    - **Core/Base**
     - `AsyncCallback`
     - `CommonCallback`
-    - `ErrorCallback`
-    - `ErrorMessage`
+
+    - **Result/Outcome**
     - `FailureCallback`
-    - `GetterCallback`
-    - `ProcessCallback`
     - `ResultCallback`
-    - `SetterCallback`
     - `StatusCallback`
     - `SuccessCallback`
+
+    - **Errors/Validation**
+    - `ErrorCallback`
     - `ValidationCallback`
+
+    - **Hooks/Events**
+    - `OnChangeCallback`
+    - `OnDestroyCallback`
+    - `OnPropertyChangeCallback`
+    - `OnSetCallback`
+    - `OnSetPropertyCallback`
+
+    - **Action**
+    - `GetterCallback`
+    - `ProcessCallback`
+    - `SetterCallback`
+
+    - **Utility**
+    - `ErrorMessage`
 - [Contributing](#contributing)
 - [Support](#support)
 - [Code of Conduct](#code-of-conduct)
@@ -63,15 +79,23 @@ import {
   AsyncCallback,
   CommonCallback,
   ErrorCallback,
-  ErrorMessage,
   FailureCallback,
-  GetterCallback, // beta.4
+  GetterCallback,
+
+  OnChangeCallback,
+  OnDestroyCallback,
+  OnPropertyChangeCallback,
+  OnSetCallback,
+  OnSetPropertyCallback,
+
   ProcessCallback,
   ResultCallback,
-  SetterCallback, // beta.4
+  SetterCallback,
   StatusCallback,
   SuccessCallback,
-  ValidationCallback
+  ValidationCallback,
+
+  ErrorMessage,
 } from '@typedly/callback';
 ```
 
@@ -80,15 +104,23 @@ import {
 - [`AsyncCallback`](https://github.com/typedly/callback/blob/main/src/lib/async-callback.type.ts)
 - [`CommonCallback`](https://github.com/typedly/callback/blob/main/src/lib/common-callback.type.ts)
 - [`ErrorCallback`](https://github.com/typedly/callback/blob/main/src/lib/error-callback.type.ts)
-- [`ErrorMessage`](https://github.com/typedly/callback/blob/main/src/lib/error-message.type.ts)
 - [`FailureCallback`](https://github.com/typedly/callback/blob/main/src/lib/failure-callback.type.ts)
 - [`GetterCallback`](https://github.com/typedly/callback/blob/main/src/lib/getter-callback.type.ts)
+
+- [`OnChangeCallback`](https://github.com/typedly/callback/blob/main/src/lib/on-change-callback.type.ts)
+- [`OnDestroyCallback`](https://github.com/typedly/callback/blob/main/src/lib/on-destroy-callback.type.ts)
+- [`OnPropertyChangeCallback`](https://github.com/typedly/callback/blob/main/src/lib/on-property-change-callback.type.ts)
+- [`OnSetCallback`](https://github.com/typedly/callback/blob/main/src/lib/on-set-callback.type.ts)
+- [`OnSetPropertyCallback`](https://github.com/typedly/callback/blob/main/src/lib/on-set-property-callback.type.ts)
+
 - [`ProcessCallback`](https://github.com/typedly/callback/blob/main/src/lib/process-callback.type.ts)
 - [`ResultCallback`](https://github.com/typedly/callback/blob/main/src/lib/result-callback.type.ts)
 - [`SetterCallback`](https://github.com/typedly/callback/blob/main/src/lib/setter-callback.type.ts)
 - [`StatusCallback`](https://github.com/typedly/callback/blob/main/src/lib/status-callback.type.ts)
 - [`SuccessCallback`](https://github.com/typedly/callback/blob/main/src/lib/success-callback.type.ts)
 - [`ValidationCallback`](https://github.com/typedly/callback/blob/main/src/lib/validation-callback.type.ts)
+
+- [`ErrorMessage`](https://github.com/typedly/callback/blob/main/src/lib/error-message.type.ts)
 
 ## Contributing
 
