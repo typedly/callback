@@ -1,2 +1,8 @@
+/**
+ * @description The callback function performed on change.
+ * @export
+ * @template T The type of value.
+ * @template Payload The type of the optional payload.
+ */
 export type OnChangeCallback<T, Payload> =
-  (value: T, oldValue: T, payload?: Payload) => void;
+  (value: T, previousValue: T, payload?: Payload) => void;

@@ -7,8 +7,8 @@
  * @param value The current value of the property being accessed.
  * @param instance The object instance of type `Obj` that is passed to the callback.
  * @returns The modified value of the property or `void` if no changes are made.
- * @template Obj The type of the object that holds the property.
- * @template {keyof Obj} Key The type of the property key, constrained to the keys of `Obj`.
+ * @template O The type of the object that holds the property.
+ * @template {keyof O} K The type of the property key, constrained to the keys of `Obj`.
  */
-export type GetterCallback<Obj, Key extends keyof Obj> =
-  (this: Obj, key: Key, previousValue: Obj[Key], value: Obj[Key], instance: Obj) => Obj[Key] | void;
+export type GetterCallback<O, K extends keyof O> =
+  (this: O, key: K, previousValue: O[K], value: O[K], instance: O) => O[K] | void;
