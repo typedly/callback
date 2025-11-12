@@ -101,20 +101,17 @@ import {
 - [`ErrorCallback`](https://github.com/typedly/callback/blob/main/src/lib/error-callback.type.ts)
 - [`FailureCallback`](https://github.com/typedly/callback/blob/main/src/lib/failure-callback.type.ts)
 - [`GetterCallback`](https://github.com/typedly/callback/blob/main/src/lib/getter-callback.type.ts)
-
 - [`OnChangeCallback`](https://github.com/typedly/callback/blob/main/src/lib/on-change-callback.type.ts)
 - [`OnDestroyCallback`](https://github.com/typedly/callback/blob/main/src/lib/on-destroy-callback.type.ts)
 - [`OnPropertyChangeCallback`](https://github.com/typedly/callback/blob/main/src/lib/on-property-change-callback.type.ts)
 - [`OnSetCallback`](https://github.com/typedly/callback/blob/main/src/lib/on-set-callback.type.ts)
 - [`OnSetPropertyCallback`](https://github.com/typedly/callback/blob/main/src/lib/on-set-property-callback.type.ts)
-
 - [`ProcessCallback`](https://github.com/typedly/callback/blob/main/src/lib/process-callback.type.ts)
 - [`ResultCallback`](https://github.com/typedly/callback/blob/main/src/lib/result-callback.type.ts)
 - [`SetterCallback`](https://github.com/typedly/callback/blob/main/src/lib/setter-callback.type.ts)
 - [`StatusCallback`](https://github.com/typedly/callback/blob/main/src/lib/status-callback.type.ts)
 - [`SuccessCallback`](https://github.com/typedly/callback/blob/main/src/lib/success-callback.type.ts)
 - [`ValidationCallback`](https://github.com/typedly/callback/blob/main/src/lib/validation-callback.type.ts)
-
 - [`ErrorMessage`](https://github.com/typedly/callback/blob/main/src/lib/error-message.type.ts)
 
 ## Contributing
