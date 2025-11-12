@@ -8,7 +8,7 @@
  * @param instance The object instance of type `Obj` that is passed to the callback.
  * @returns void
  * @template O The type of the object that holds the property.
- * @template {keyof O} K The type of the property key, constrained to the keys of `Obj`.
+ * @template {keyof O} K The type of the property key, constrained to the keys of `O`.
  */
 export type SetterCallback<O, K extends keyof O> =
   (this: O, value: O[K], previousValue: O[K], key: K, instance: O) => void;
