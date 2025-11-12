@@ -10,6 +10,5 @@
  * @template Obj The type of the object that holds the property.
  * @template {keyof Obj} Key The type of the property key, constrained to the keys of `Obj`.
  */
-export interface SetterCallback<Obj, Key extends keyof Obj> {
-  (this: Obj, value: Obj[Key], previousValue: Obj[Key], key: Key, instance: Obj): void;
-}
+export type SetterCallback<Obj, Key extends keyof Obj> =
+  (this: Obj, value: Obj[Key], previousValue: Obj[Key], key: Key, instance: Obj) => void;
