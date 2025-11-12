@@ -1,5 +1,5 @@
 // Type.
-import { CommonCallback } from "./common-callback.type";
+import { CommonCallback } from "./common-callback.interface";
 /**
  * @description Asynchronous callback type definition.
  * @export
@@ -8,9 +8,9 @@ import { CommonCallback } from "./common-callback.type";
  * @template [Payload=unknown] Specifies the type of the payload parameter, containing additional data for the callback.
  * @template [Return=Result] Specifies the type of the return value of the callback.
  */
-export type AsyncCallback<
+export interface AsyncCallback<
   Result = any,
   Value = unknown,
   Payload = unknown,
   Return = Result
-> = CommonCallback<Result, Value, Payload, Promise<Return>>;
+> extends CommonCallback<Result, Value, Payload, Promise<Return>> {}

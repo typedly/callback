@@ -1,5 +1,5 @@
 // Type.
-import { CommonCallback } from "./common-callback.type";
+import { CommonCallback } from "./common-callback.interface";
 /**
  * @description Represents tne function that takes the status of the invoked action on the value.
  * @export

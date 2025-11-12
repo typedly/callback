@@ -1,5 +1,5 @@
 // Type.
-import { ErrorMessage } from "./error-message.type";
+import { ErrorMessage } from "./error-message.interface";
 /**
  * @description Represents the type of function invoked after the error occurred.
  * @export
@@ -8,14 +8,16 @@ import { ErrorMessage } from "./error-message.type";
  * @template [Return=void] 
  * @template {typeof Error} [Type=typeof Error] 
  */
-export type ErrorCallback<
+export interface ErrorCallback<
   Context = unknown,
   Payload = unknown,
   Return = void,
   Type extends typeof Error = typeof Error
-> = (
-  context: Context,
-  payload?: Payload,
-  message?: string | ErrorMessage<Context, Payload>,
-  type?: Type
-) => Return;
+> {
+  (
+    context: Context,
+    payload?: Payload,
+    message?: string | ErrorMessage<Context, Payload>,
+    type?: Type
+  ): Return;
+}

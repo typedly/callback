@@ -11,13 +11,11 @@
  * @template [Return] Specifies the type of the return value of the callback.
  * @returns The returned value is generic type variable `Return` indicating the processing result of the given `value`.
  */
-export type CommonCallback<
+export interface CommonCallback<
   Result,
   Value,
   Payload,
   Return
-> = (
-  result: Result,
-  value: Value,
-  payload?: Payload
-) => Return;
+> {
+  (result: Result, value: Value, payload?: Payload): Return;
+}

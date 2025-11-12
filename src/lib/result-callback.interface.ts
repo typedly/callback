@@ -1,5 +1,5 @@
 // Type.
-import { CommonCallback } from "./common-callback.type";
+import { CommonCallback } from "./common-callback.interface";
 /**
  * @description Represents the type of function that takes the result of the processed value and return it.
  * @export
@@ -7,8 +7,8 @@ import { CommonCallback } from "./common-callback.type";
  * @template [Value=unknown] The type of the processed value. Defaults to, `unknown`.
  * @template [Payload=unknown] The type of additional data that may be provided. Defaults to `unknown`.
  */
-export type ResultCallback<
+export interface ResultCallback<
   Result = any,
   Value = unknown,
   Payload = unknown,
-> = CommonCallback<Result, Value, Payload, Result>;
+> extends CommonCallback<Result, Value, Payload, Result> {}

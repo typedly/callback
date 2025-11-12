@@ -1,5 +1,5 @@
 /**
- * @description A callback type for a property value accessed through a getter.
+ * @description A callback interface for a property value accessed through a getter.
  * @export
  * @param this The object instance of type `Obj` that the getter is operating on.
  * @param key The key of the property being accessed, constrained to the keys of `Obj`.
@@ -10,10 +10,6 @@
  * @template Obj The type of the object that holds the property.
  * @template {keyof Obj} Key The type of the property key, constrained to the keys of `Obj`.
  */
-export type GetterCallback<Obj, Key extends keyof Obj> = (
-  this: Obj,
-  key: Key,
-  previousValue: Obj[Key],
-  value: Obj[Key],
-  instance: Obj
-) => Obj[Key] | void;
+export interface GetterCallback<Obj, Key extends keyof Obj> {
+  (this: Obj, key: Key, previousValue: Obj[Key], value: Obj[Key], instance: Obj): Obj[Key] | void;
+}

@@ -4,4 +4,6 @@
  * @template Context The generic type value of context in which the error occurred.
  * @template Payload The generic type value of payload to gives additional data.
  */
-export type ErrorMessage<Context, Payload> = (context: Context, payload: Payload) => string;
+export interface ErrorMessage<Context, Payload> {
+  (context: Context, payload: Payload): string;
+}
