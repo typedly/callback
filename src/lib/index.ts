@@ -1,12 +1,20 @@
 export type { AsyncCallback } from './async-callback.type';
 export type { CommonCallback } from './common-callback.type';
 export type { ErrorCallback } from './error-callback.type';
-export type { ErrorMessage } from './error-message.type';
 export type { FailureCallback } from './failure-callback.type';
 export type { GetterCallback } from './getter-callback.type';
+
+export type { OnChangeCallback } from './on-change-callback.type';
+export type { OnDestroyCallback } from './on-destroy-callback.type';
+export type { OnPropertyChangeCallback } from './on-property-change-callback.type';
+export type { OnSetCallback } from './on-set-callback.type';
+export type { OnSetPropertyCallback } from './on-set-property-callback.type';
+
 export type { ProcessCallback } from './process-callback.type';
 export type { ResultCallback } from './result-callback.type';
 export type { SetterCallback } from './setter-callback.type';
 export type { StatusCallback } from './status-callback.type';
 export type { SuccessCallback } from './success-callback.type';
 export type { ValidationCallback } from './validation-callback.type';
+
+export type { ErrorMessage } from './error-message.type';

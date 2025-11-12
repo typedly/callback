@@ -5,13 +5,21 @@ export type {
   AsyncCallback,
   CommonCallback,
   ErrorCallback,
-  ErrorMessage,
   FailureCallback,
   GetterCallback,
+
+  OnChangeCallback,
+  OnDestroyCallback,
+  OnPropertyChangeCallback,
+  OnSetCallback,
+  OnSetPropertyCallback,
+
   ProcessCallback,
   ResultCallback,
   SetterCallback,
   StatusCallback,
   SuccessCallback,
-  ValidationCallback
+  ValidationCallback,
+
+  ErrorMessage,
 } from './lib';

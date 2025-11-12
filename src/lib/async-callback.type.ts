@@ -8,9 +8,5 @@ import { CommonCallback } from "./common-callback.type";
  * @template [Payload=unknown] Specifies the type of the payload parameter, containing additional data for the callback.
  * @template [Return=Result] Specifies the type of the return value of the callback.
  */
-export type AsyncCallback<
-  Result = any,
-  Value = unknown,
-  Payload = unknown,
-  Return = Result
-> = CommonCallback<Result, Value, Payload, Promise<Return>>;
+export type AsyncCallback<Result = any, Value = unknown, Payload = unknown, Return = Result> =
+  CommonCallback<Result, Value, Payload, Promise<Return>>;
