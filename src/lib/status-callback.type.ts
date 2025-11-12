@@ -1,5 +1,5 @@
 /**
- * @description Represents tne function that takes the status of the invoked action on the value.
+ * @description Represents the function that takes the status of the invoked action on the value.
  * @export
  * @template Status The type of the status.
  * @template [Value=unknown] The type of the value that the action is applied to. Defaults to, `unknown`.
